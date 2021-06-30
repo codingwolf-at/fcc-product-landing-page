@@ -83,3 +83,25 @@ body {
   background-color: var(--secondary-bg-color);
   border: none;
 }
+
+/* FEATURES SECTION */
+#features {
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.feature-tiles {
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.feature-tiles i {
+  color: var(--secondary-bg-color);
+  font-size: 3.5rem;
+  width: 10rem;
+}
+
+.feature-icon {
+  text-align: center;
+}
