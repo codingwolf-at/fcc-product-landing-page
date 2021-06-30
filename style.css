@@ -2,7 +2,7 @@
 
 :root {
   --primary-bg-color: #EEEEEE;
-  --secondary-bg-color: #FF8C00;
+  --secondary-bg-color: #FCD34D;
   --ternary-bg-color: #DDDDDD;
 }
 
@@ -19,7 +19,67 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* font-family: 'Yellowtail', cursive; */
-  /* font-family: 'Yellowtail', cursive; */
+  background-color: var(--primary-bg-color);
 }
 
+/* HEADER */
+#header {
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 10vh;
+}
+
+#header-title {
+  margin: 0.5rem;
+  font-family: 'Yellowtail', cursive;
+  font-weight: 400;
+}
+
+#nav-bar {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  margin: 2rem;
+  display: inline-block;
+  transition: 300ms ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+/* FORM */
+.container {
+  margin: 10vh auto;
+  width: 65vw;
+  padding: 1rem;
+  text-align: center;
+}
+
+#form {
+  margin: 1rem 0;
+}
+
+#email {
+  width: 40%;
+  padding: 0.4rem;
+  font-family: inherit;
+}
+
+#submit {
+  display: block;
+  margin: 1rem auto;
+  font-family: inherit;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: var(--secondary-bg-color);
+  border: none;
+}
