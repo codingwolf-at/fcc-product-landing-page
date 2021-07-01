@@ -157,3 +157,22 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+/* FOOTER */
+#footer {
+  background-color: var(--ternary-bg-color);
+  padding: 1.5rem;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+#footer-body {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-link {
+  color: black;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
